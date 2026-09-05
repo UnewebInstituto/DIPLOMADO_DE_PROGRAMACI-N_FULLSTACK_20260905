@@ -1,0 +1,10 @@
+1 instalar visual sudio code
+https://code.visualstudio.com/
+2 Instalar Gitbash
+para descargar los respaldos efectuado en clase
+https://git-scm.com/install/
+3 Instalar filezilla cliente
+https://filezilla-project.org/download.php?platform=win64
+4 crear cuenta en www.alwaysdata.net
+se requiere cuenta de google
+paso 5 configurar usuario y clave de FTP

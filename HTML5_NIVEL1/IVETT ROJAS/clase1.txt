@@ -1,0 +1,8 @@
+1. Instalar Gitbash
+    Para descargar los respaldos efectuados en clase
+    https://git-scm.com/install/
+2. Intalar FileZilla Cliente
+    https://filezilla-project.org/
+3. Crear cuenta en www.alwaysdata.net
+    https://www.alwaysdata.com/en/
+4. Configurar usuario y clave de FTP alwaysdata  

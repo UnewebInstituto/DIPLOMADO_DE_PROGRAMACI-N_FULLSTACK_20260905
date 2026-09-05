@@ -1,0 +1,11 @@
+1 — Instalar Visual Studio Code: https://code.visualstudio.com/
+
+2 — Git Bash: https://git-scm.com/install/windows
+
+3 — Instalar Filezila: https://filezilla-project.org/
+
+4 - Paso 4 Crear cuenta en www.Alwaysdata.net
+
+* Se requiere cuenta de google
+
+5— Configurar usuario y cable de FTP
