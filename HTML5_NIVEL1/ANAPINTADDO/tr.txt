@@ -1,0 +1,6 @@
+            <tr>
+                <td>SQLite</td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam tenetur, modi deserunt delectus doloribus impedit debitis illum magnam dignissimos nisi!</td>
+                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, autem. Officiis excepturi soluta aliquid impedit beatae ea iusto necessitatibus voluptas.</td>
+                <td><img src="../img/sqlite.jpg" alt="Imagen de SQLite"></td>
+            </tr>

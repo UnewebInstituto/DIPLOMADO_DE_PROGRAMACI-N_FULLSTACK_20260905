@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px black;
+}
+table{
+    width: 70%;
+    margin-left: 15%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+/* Asignacion de propiedades a travez del atributo
+id se declara el id con un nombre en la etiqueta
+*/
+#encabezado{
+    background-color: darkgray;
+    font-size: 32px;
+    
+}
+/*los th contenido en el encabezado */
+
+#encabezado th{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-shadow: 3px 3px 3px white;
+}
+/* se hace referencia .nombre de clase, para acceder a las clases declaradas en las etiquetas html
+https://www.w3schools.com/colors/colors_picker.asp
+*/
+.par{
+background-color: #cccccc;
+}
+.impar{
+background-color: gray;
+}
+tbody tr:hover{
+    background-color: white;
+}

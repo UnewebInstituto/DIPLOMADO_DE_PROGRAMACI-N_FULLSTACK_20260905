@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+            width: 150px;
+            height: 150px;
+            border: 1px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 10%;
+            box-shadow: 3px 3px 3px black;
+        }
+        table{
+            width: 70%;
+            margin-left: 15%;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+        }
+        /*
+        Asignacion de propiedades a traves del atributo ID. Se declara el id con un nombre en la etiqueta */
+        #encabezado{
+            background-color: darkgrey;
+            font-size: 32px;            
+        }
+        #encabezado th{
+            border-style: solid;
+            border-color: black;
+            mask-border-width: 1px;
+            text-shadow: 3px 3px 3px white;
+        }
+
+        .par{
+            background-color: #cccccc;          
+
+        }
+
+        .impar{
+            background-color: grey;
+        }
+
+        tbody tr:hover{
+            background-color: white;
+            
+        }
