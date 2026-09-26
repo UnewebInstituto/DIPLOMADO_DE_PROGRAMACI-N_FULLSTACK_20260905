@@ -1,0 +1,128 @@
+Como experto en desarrollo web y optimización on-page, con mucho gusto te explico cómo funcionan las etiquetas `meta` para palabras clave y te comparto ejemplos prácticos.
+
+---
+
+### ¿Qué son las `meta keywords`?
+
+La etiqueta `<meta name="keywords" content="...">` se utilizaba históricamente para indicarle a los motores de búsqueda cuáles eran los términos principales asociados al contenido de una página web.
+
+> **Nota técnica importante:** Hoy en día, los principales motores de búsqueda (como Google) **ya no utilizan** las `meta keywords` como factor de posicionamiento (SEO), debido al abuso histórico que se hizo de ellas (keyword stuffing). Sin embargo, aún pueden encontrarse en algunos sistemas de gestión de contenidos (CMS), intranets o buscadores internos específicos que sí las aprovechan para indexación local.
+
+---
+
+### Ejemplos Prácticos de `meta keywords`
+
+Aquí tienes varios ejemplos aplicados a diferentes sectores y nichos:
+
+#### 1. Sitio Web de E-Commerce (Tienda Online)
+
+Si estás optimizando una página de productos o una tienda de calzado deportivo:
+
+```html
+<meta name="keywords" content="zapatillas de running, comprar tenis deportivos, calzado para correr, tienda de deportes online, zapatillas nike adidas">
+
+```
+
+#### 2. Blog de Tecnología y Programación
+
+Para un artículo o sitio enfocado en desarrollo de software:
+
+```html
+<meta name="keywords" content="desarrollo web, tutorial python, programacion backend, flask y django, bases de datos postgresql">
+
+```
+
+#### 3. Sitio Corporativo de Servicios Profesionales
+
+Para una consultoría o agencia de servicios informáticos:
+
+```html
+<meta name="keywords" content="consultoria informatica, desarrollo de software a medida, arquitectura de sistemas, automatizacion con inteligencia artificial, transformacion digital">
+
+```
+
+#### 4. Sitio de Educación y Cursos Online
+
+Para una plataforma de formación o academia:
+
+```html
+<meta name="keywords" content="curso de programacion, clases de javascript, diplomado full stack, formacion en ia, aprender desarrollo web">
+
+```
+
+---
+
+### Buenas prácticas recomendadas
+
+Si decides utilizarlas por requerimientos de un sistema interno o un buscador específico, ten en cuenta estas directrices:
+
+* **Ubicación:** Deben colocarse siempre dentro de la sección `<head>` de tu documento HTML.
+* **Separación:** Las palabras o frases clave se separan estrictamente por **comas**.
+* **Extinción de abusos:** Evita repetir la misma palabra muchas veces o incluir términos irrelevantes. Lo ideal es mantener una lista concisa de entre **5 y 10 términos o frases clave** estrechamente relacionados con el contenido real de la página.
+
+¿Te gustaría revisar algún otro ejemplo específico para el producto o proyecto en el que estás trabajando actualmente?
+
+
+Como experto en desarrollo web y optimización on-page, con mucho gusto te explico cómo funcionan las etiquetas `meta` para palabras clave y te comparto ejemplos prácticos.
+
+---
+
+### ¿Qué son las `meta keywords`?
+
+La etiqueta `<meta name="keywords" content="...">` se utilizaba históricamente para indicarle a los motores de búsqueda cuáles eran los términos principales asociados al contenido de una página web.
+
+> **Nota técnica importante:** Hoy en día, los principales motores de búsqueda (como Google) **ya no utilizan** las `meta keywords` como factor de posicionamiento (SEO), debido al abuso histórico que se hizo de ellas (keyword stuffing). Sin embargo, aún pueden encontrarse en algunos sistemas de gestión de contenidos (CMS), intranets o buscadores internos específicos que sí las aprovechan para indexación local.
+
+---
+
+### Ejemplos Prácticos de `meta keywords`
+
+Aquí tienes varios ejemplos aplicados a diferentes sectores y nichos:
+
+#### 1. Sitio Web de E-Commerce (Tienda Online)
+
+Si estás optimizando una página de productos o una tienda de calzado deportivo:
+
+```html
+<meta name="keywords" content="zapatillas de running, comprar tenis deportivos, calzado para correr, tienda de deportes online, zapatillas nike adidas">
+
+```
+
+#### 2. Blog de Tecnología y Programación
+
+Para un artículo o sitio enfocado en desarrollo de software:
+
+```html
+<meta name="keywords" content="desarrollo web, tutorial python, programacion backend, flask y django, bases de datos postgresql">
+
+```
+
+#### 3. Sitio Corporativo de Servicios Profesionales
+
+Para una consultoría o agencia de servicios informáticos:
+
+```html
+<meta name="keywords" content="consultoria informatica, desarrollo de software a medida, arquitectura de sistemas, automatizacion con inteligencia artificial, transformacion digital">
+
+```
+
+#### 4. Sitio de Educación y Cursos Online
+
+Para una plataforma de formación o academia:
+
+```html
+<meta name="keywords" content="curso de programacion, clases de javascript, diplomado full stack, formacion en ia, aprender desarrollo web">
+
+```
+
+---
+
+### Buenas prácticas recomendadas
+
+Si decides utilizarlas por requerimientos de un sistema interno o un buscador específico, ten en cuenta estas directrices:
+
+* **Ubicación:** Deben colocarse siempre dentro de la sección `<head>` de tu documento HTML.
+* **Separación:** Las palabras o frases clave se separan estrictamente por **comas**.
+* **Extinción de abusos:** Evita repetir la misma palabra muchas veces o incluir términos irrelevantes. Lo ideal es mantener una lista concisa de entre **5 y 10 términos o frases clave** estrechamente relacionados con el contenido real de la página.
+
+¿Te gustaría revisar algún otro ejemplo específico para el producto o proyecto en el que estás trabajando actualmente?

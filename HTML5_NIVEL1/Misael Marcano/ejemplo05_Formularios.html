@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Ejemplo 05 formularios</title>
+</head>
+<body>
+    <h1>Datos Personales</h1>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td>Cedula:</td>
+                <td>
+                 <select name="tipo" id="tipo">
+                    <option value="V">V</option>
+                    <option value="E">E</option>
+                    <input type="text" name="numero" id="numero">
+                 </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text" name="Nombre" id="Nombre"></td>
+            </tr>
+            <tr>
+                <td>Apellido</td>
+                <td><input type="text" name="Apellido" id="Apellido"></td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento</td>
+                <td><input type="date" name="fechanat" id="fechanat"></td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td> <input type="radio" name="sexo" id="sexo" value="F" checked>Femenino
+                    <td><input type="radio" name="sexo" id="sexo" value="M">Masculino</td>
+                </td>
+            </tr>
+            <tr>
+                <td>Actividad:</td>
+                <td><input type="checkbox" name="Acividad" id="Actividad" value="Estudia">Estudia
+                <input type="checkbox" name="Acividad" id="Actividad" value="Trabaja">Trabaja
+                <input type="checkbox" name="Acividad" id="Actividad" value="Otros">Otros</td>
+            </tr>
+            <tr>
+                <td>Direccion:</td>
+                <td><textarea name="Direccion" id="Direccion" cols="20" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

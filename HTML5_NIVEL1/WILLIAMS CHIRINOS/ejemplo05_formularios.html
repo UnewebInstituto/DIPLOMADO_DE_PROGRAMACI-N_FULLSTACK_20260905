@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Ejemplo05_formularios</title>
+</head>
+<body>
+    <h1>Datos Personales</h1>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td>Cédula:</td>
+                <td>
+                    <select name="tipo" id="tipo">
+                        <option value="V">V</option>
+                        <option value="E">E</option>
+                    </select>
+                    <input type="text" name="numero" id="numero">
+                </td>
+            </tr>
+            <tr>
+            <td>Nombre:</td>
+            <td>
+                <input type="text" name="nombre" id="nombre">
+            </td>
+            </tr>
+            <tr>
+            <td>Apellido:</td>
+            <td>
+                <input type="text" name="apellido" id="apellido">
+            </td>
+            </tr>
+            <tr>
+            <td>Fecha de Nacimiento:</td>
+            <td>
+                <input type="date" name="fechanac" id="fechanac">
+            </td>
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <input type="radio" name="sexo" id="sexo" value="F" checked>Femenino
+                    <input type="radio" name="sexo" id="sexo" value="M">Masculino
+                </td>
+            </tr>
+            <tr>
+                <td>Actividad:</td>
+                <td>
+                    <input type="checkbox" name="actividad" id="actividad" value="Estudia">Estudia
+                    <input type="checkbox" name="actividad" id="actividad" value="Trabaja">Trabaja
+                    <input type="checkbox" name="actividad" id="actividad" value="Otra">Otra
+                </td>
+            </tr>
+            <tr>
+                <td>Direccion:</td>
+                <td>
+                    <textarea name="direccion" id="direccion" cols="20" rows="4"></textarea>
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="ENVIAR">
+                     <input type="reset" value="LIMPIAR">
+                </td>
+            </tr>
+
+        </table>
+    </form>    
+</body>
+</html>
+<!--
+file:///C:/.Profesores/HENRY_DUQUE/DIPLOMADO_DE_PROGRAMACI-N_FULLSTACK_20260905/HTML5_NIVEL1/WILLIAMS%20CHIRINOS/ejemplo05_formularios.html?tipo=V&numero=14768547&nombre=Williams&apellido=Chirinos&fechanac=2026-09-03&sexo=M&actividad=Estudia&direccion=La+Guaira+
+-->
