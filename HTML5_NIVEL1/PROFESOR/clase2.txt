@@ -1,0 +1,47 @@
+Etiquetas de encabezado:
+1) Enumeradas desde h1 hasta h6: Representan
+texto de importancia en el documento.
+1: Mayor importancia
+6: Menor importancia
+
+2) Etiqueta <p></p> de párrafo
+
+3) lorem : genera un contenido de palabras en latin
+loremNÚMERO
+
+4) Listas Enumeradas y Listas No Enumeradas
+Listas Enumeradas 
+     +-- ATRIBUTOS
+     |
+     v
+<ol type="">
+    <li>Elemento de lista </li>
+    <li>Elemento de lista </li>
+    <li>Elemento de lista </li>
+    ...
+</ol>
+
+Listas No Enumeradas
+<ul>
+    <li>Elemento de lista </li>
+    <li>Elemento de lista </li>
+    <li>Elemento de lista </li>
+    ...
+</ul>
+
+https://hduque-test.alwaysdata.net/ejemplo02_basico.html
+
+
+
+https://developer.mozilla.org/es/
+
+https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/ul
+
+ANCLAS: Son etiquetas para el desarrollo de hipervinculos.
+
+
+
+
+
+
+

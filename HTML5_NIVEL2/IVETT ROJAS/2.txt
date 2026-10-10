@@ -1,0 +1,11 @@
+-- Desde el sistema operativo DOS
+-- ver los archivos en el directorio
+dir
+
+-- Acceder a un directorio
+cd html5_nivel2
+
+-- Salir de una carpeta
+cd ..
+
+

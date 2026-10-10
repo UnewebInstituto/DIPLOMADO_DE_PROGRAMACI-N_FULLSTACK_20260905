@@ -1,0 +1,18 @@
+Etiquetas de encabezado 
+1. Enumeradas desde h1 hasta h6: representan
+texto de importancia en el documento
+1: mayor importancia
+2: menor importancia
+
+2. Etiquetas <p> de parrafo
+
+3. lorem: genera automaticamente el texto
+
+4. Listas Enumeradas y Listas no enumeradas 
+listas enumeradas 
+<ol>
+    <li>
+
+ANCLAS: Son etiquetas para el desarrollo de hipervinculo.
+
+

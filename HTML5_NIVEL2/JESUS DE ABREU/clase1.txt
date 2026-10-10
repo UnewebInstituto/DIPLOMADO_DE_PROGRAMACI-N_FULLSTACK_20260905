@@ -1,0 +1,23 @@
+texto de clase de formularios
+
+conjunto de etiquetas anidadas
+
+<form method= {"post"  
+                get"}
+action="  "
+<input type={"text"
+             "number"
+             "date"
+             "checbox"
+             "submit"
+             "reset"}
+<selec
+    <option> valor </option>
+</selec>
+<button type="submit">
+texto</button>
+
+</form>
+
+
+<tr> </tr> =son las filas de las tablas

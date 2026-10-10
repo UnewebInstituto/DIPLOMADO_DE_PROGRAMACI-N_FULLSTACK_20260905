@@ -1,0 +1,9 @@
+Paso 1 Instalar Visual Studio Code
+https://code.visualstudio.com/
+2 Paso Instalar Gitbash
+https://git-scm.com/install/
+3 Paso Instalar Filezilla
+https://filezilla-project.org/
+Paso 4 Crear cuenta en www.Alwaysdata.net
+https://www.alwaysdata.com/fr/
+Paso 5 Configurar usuario y clave de FTP

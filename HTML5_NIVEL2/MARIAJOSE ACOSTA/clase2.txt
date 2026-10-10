@@ -1,0 +1,24 @@
+https://en-wikipedia-org.translate.goog/wiki/Rasmus_Lerdorf?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sge
+
+-- Desde el sistema operativo DOS
+-- ver los archivos en el directorio
+dir
+
+-- Acceder a un directorio
+cd html5_nivel2
+
+-- Salir de una carpeta
+cd ..
+http://localhost:8000/ejemplo01_formularios.php?nombre=ANA&edad=20&estatura=1.70&fechanac=2006-12-09&fechahora=2006-09-12+18%3A00%3A00&fechahoralocal=2026-10-10T09%3A07&mes=2026-10&semana=2026-W41&hora=09%3A08&sexo=F&actividad%5B%5D=Estudia&actividad%5B%5D=Trabaja&actividad%5B%5D=Otra&nivel=T%C3%A9cnico&buscar=HTML&url=https%3A%2F%2Fwww.uneweb.edu.ve&color=%23c11a1a&archivo=Contenido-del-Diplomado-de-Programacion.pdf&rango=35&correo=ana%40gmail.com&clave=1234&oculto=Este+datos+no+se+ve
+
+
+FUENTE ARCHIVO VIDEO:
+https://pixabay.com/es/videos/search/eclipse%20lunar/
+
+https://developer.mozilla.org/es/
+
+https://developer.mozilla.org/es/docs/Glossary/WebVTT
+
+https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio

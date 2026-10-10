@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo02</title>
+</head>
+<body>
+    <h2>etiquetas multimedia</h2>
+    <h3>video</h3>
+    <!--
+    <video src="../video/338880_medium.mp4" 
+    width="500px" 
+    height="250px" 
+    controls>
+</video>
+    -->
+<!--2da.forma de declaracion de video-->
+
+<video width="500px" height="250px" controls>
+        <source src="../video/338880_medium.mp3" type="video/mpg">
+        <source src="../video/338880_medium.waw" type="video/waw">
+        <source src="../video/338880_medium.ogg" type="video/ogg">
+        su navegdor no soporta la reproduccion de video. 
+       <track src="./subtitulos.vtt" 
+       kind="subtitles" 
+       lang="es" 
+       srclang="es" 
+       label="Español"></track>
+    </video>
+    <hr>
+    <h3>audio</h3>
+    <!--<audio src="../audio/electroanimals-eclipse-591261.mp3" controls>Su navegador no soporta la etiqueta de audio</audio>
+    -->
+    <audio src="../audio/electroanimals-eclipse-591261.mp3" controls> su navegador no soporta la etiquetta de audio </audio> 
+</body>
+</html>

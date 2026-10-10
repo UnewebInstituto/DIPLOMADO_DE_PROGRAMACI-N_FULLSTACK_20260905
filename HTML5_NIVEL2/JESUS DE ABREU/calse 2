@@ -1,0 +1,11 @@
+etiquetas multimedia
+
+<video>( *.mp4
+         *.webm
+         *.ogg)
+<audio> (*.mp3
+         *.wav
+         *.ogg)
+(<source>
+estas dos estan combinadas
+<track>)

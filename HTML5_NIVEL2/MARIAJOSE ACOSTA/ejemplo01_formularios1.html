@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplo de Formularios</h1>
+    <!--
+    <form action="./ejemplo01_formularios.php" method="get" enctype="multipart/form-data">
+    -->
+    <form action="./ejemplo01_formularios.php" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>Nombre:</td>
+            <td>
+                <input type="text" 
+                       name="nombre" 
+                       id="nombre"
+                       required>
+            </td>
+        </tr>
+        <tr>
+            <td>Edad:</td>
+            <td>
+                <input type="number" 
+                       name="edad" 
+                       id="edad"
+                       min="0"
+                       max="120"
+                       required>
+            </td>
+        </tr>
+        <tr>
+            <td>Estatura:</td>
+            <td>
+                <input type="number" 
+                       name="estatura" 
+                       id="estatura"
+                       min="0"
+                       step="0.01"
+                       required>
+            </td>
+        </tr>
+        <tr>
+            <td>Fecha de nacimiento:</td>
+            <td>
+                <input type="date" 
+                       name="fechanac" 
+                       id="fechanac"
+                       required>
+            </td>
+        </tr>
+        <tr>
+            <td>Fecha Hora:</td>
+            <td>
+                <input type="datetime" 
+                       name="fechahora" 
+                       id="fechahora"
+                       required>
+            </td>
+        </tr>
+        <tr>
+            <td>Fecha Hora local:</td>
+            <td>
+                <input type="datetime-local" 
+                       name="fechahoralocal" 
+                       id="fechahoralocal"
+                       required>
+            </td>
+        </tr>
+        <tr>
+            <td>Mes:</td>
+            <td>
+                <input type="month" name="mes" id="mes" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Semana:</td>
+            <td>
+                <input type="week" name="semana" id="semana" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Hora:</td>
+            <td>
+                <input type="time" name="hora" id="hora" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Sexo:</td>
+            <td>
+                <input type="radio" name="sexo" id="sexo" value="F" checked>Femenino
+                <input type="radio" name="sexo" id="sexo" value="M">Masculino
+            </td>
+        </tr>
+        <tr>
+            <td>Actividad:</td>
+            <td>
+                <input type="checkbox" name="actividad[]" id="actividad" value="Estudia" checked multiple>Estudia
+                <input type="checkbox" name="actividad[]" id="actividad" value="Trabaja" multiple>Trabaja
+                <input type="checkbox" name="actividad[]" id="actividad" value="Otra" multiple>Otra
+            </td>
+        </tr>
+        <tr>
+            <td>Nivel de Instrucción:</td>
+            <td>
+                <select name="nivel" id="nivel">
+                    <option value="Primaria" selected>Primaria</option>
+                    <option value="Secundaria">Secundaria</option>
+                    <option value="Técnico">Técnico</option>
+                    <option value="Universitario">Universitario</option>
+                    <option value="Superior">Superior</option>
+                </select>
+            </td>
+            <tr>
+                <td>Busqueda:</td>
+                <td><input type="search" name="buscar" id="buscar" required></td>
+            </tr>
+            <tr>
+                <td>URL:</td>
+                <td><input type="url" name="url" id="url" required value="https://www.uneweb.edu.ve."></td>
+            </tr>
+            <tr>
+                <td>Color:</td>
+                <td><input type="color" name="color" id="color" required></td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Archivo Anexo:</td>
+            <!-- Sólo aplica si el método del formulario
+                 es POST
+            -->
+            <td><input type="file" name="archivo" id="archivo" required></td>
+        </tr>
+        <tr>
+            <td>Rango:</td>
+            <td><input type="range" name="rango" id="rango" min="0" max="100" value="0" onchange="rango_salida.value=rango.value"><output name="rango_salida">0</output></td>
+        </tr>
+        <tr>
+            <td>Correo Electrónico:</td>
+            <td><input type="email" name="correo" id="correo" placeholder="tucorreo@dominio.com" required></td>
+        </tr>
+        <tr>
+            <td>Clave Secreta:</td>
+            <td><input type="password" name="clave" id="clave" required title="Ingrese un valor alfanúmerico iniciando con una letra mayuscula, el resto en minuscula, al menos un número y un caracter"></td>
+        </tr>
+        <tr>
+            <td>Oculto:</td>
+            <td><input type="hidden" name="oculto" id="oculto" value="Este dato no se ve"></td>
+        </tr>
+        <tr>
+            <td>Botones:</td>
+            <td><input type="submit" value="Enviar"> <input type="reset" value="Limpiar"></td>
+        </tr>
+    </table>
+    </form>
+
+    
+</body>
+</html>
