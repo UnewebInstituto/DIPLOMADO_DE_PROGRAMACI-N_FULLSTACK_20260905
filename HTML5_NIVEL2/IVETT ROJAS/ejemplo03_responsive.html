@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Requisito para despliegue responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Todas las etiquetas */
+        *{
+            box-sizing: border-box;
+        }
+        /* Inicializar etiquetas del pie de la pagina para que no se vea modificado por las propiedadespreviamente establecidas*/
+        div::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+        /* Todas las etiquetas cuyo nombre de clase sea col- , flotan a la 
+        izquierda y tienen un relleno de 15px*/
+        [class*='col-']{
+            float: left;
+            padding: 15px;
+        }
+        html{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header{
+            background-color: rgb(22, 81, 81);
+            color: white;
+            padding: 15px;
+        }
+        /*lista no ordenada ul en la etiqueta nav*/
+        nav ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        /*elementos de lista li contenido en el menu*/
+        nav li{
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: rgb(96, 196, 173);
+            color: white;
+            box-shadow: 0px 2px 3px gray;
+        }      
+        /* Anclas sin sub rayado*/
+        a{
+            text-decoration: none;
+        }
+        nav li:hover{
+            background-color: #009999;
+        }
+        aside{
+            background-color: #009999;
+            padding: 15px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0px 2px 3px gray;
+        }
+        footer{
+            background-color: cyan;
+            color: white;
+            font-size: 12px;
+            padding: 15px;
+            text-align: center;
+            text-shadow: 1px 1px 1px black;
+        }
+        /* Clases para teléfono célular */
+        /* Todas las etiquetas cuyo nombre de atributo class
+        contenga la palabra col */       
+            [class*='col-']{
+                width: 100%;
+            }
+        @media only screen and (min-width:600px) {
+            .col-s-1{width: 8.33%;}
+            .col-s-2{width: 16.66%;}
+            .col-s-3{width: 25%;}
+            .col-s-4{width: 33.33%;}
+            .col-s-5{width: 41.66%;}
+            .col-s-6{width: 50%;}
+            .col-s-7{width: 58.33%;}
+            .col-s-8{width: 66.66%;}
+            .col-s-9{width: 75%;}
+            .col-s-10{width: 83.33%;}
+            .col-s-11{width: 91.66%;}
+            .col-s-12{width: 100%;}
+        }
+            /*clases para tablet */
+        @media only screen and (min-width:600px) {
+            .col-s-1{width: 8.33%;}
+            .col-s-2{width: 16.66%;}
+            .col-s-3{width: 25%;}
+            .col-s-4{width: 33.33%;}
+            .col-s-5{width: 41.66%;}
+            .col-s-6{width: 50%;}
+            .col-s-7{width: 58.33%;}
+            .col-s-8{width: 66.66%;}
+            .col-s-9{width: 75%;}
+            .col-s-10{width: 83.33%;}
+            .col-s-11{width: 91.66%;}
+            .col-s-12{width: 100%;}
+        }
+        /*clases para pc de escritorio */
+        @media only screen and (min-width:768px) {
+            .col-1{width: 8.33%;}
+            .col-2{width: 16.66%;}
+            .col-3{width: 25%;}
+            .col-4{width: 33.33%;}
+            .col-5{width: 41.66%;}
+            .col-6{width: 50%;}
+            .col-7{width: 58.33%;}
+            .col-8{width: 66.66%;}
+            .col-9{width: 75%;}
+            .col-10{width: 83.33%;}
+            .col-11{width: 91.66%;}
+            .col-12{width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>APIs en HTML5</h1>
+    </header>
+    <div>
+        <!-- en pc el menu opcupa un 25% de la pantalla
+         en la tablet el menu ocupa un 25% de la pantalla-->
+        <nav class="col-3 col-s-3">
+            <ul>
+                <a href="https://developer.mozilla.org/es/docs/Web/API" target="_blank"><li>Documentación</li></a>
+                <a href="#"><li>Geolocalización</li></a>
+                <a href="#"><li>Canvas</li></a>
+                <a href="#"><li>Drag and Drop</li></a>
+                <a href="#"><li>Web Worker</li></a>
+            </ul>
+        </nav>
+        <!-- en pc la seccion ocupa el 50% de la pantalla. En tablet la seccion ocupa el 75% de la pantalla-->
+        <section class="col-6 col-s-9">
+            <h2>API</h2>
+            <h3>Resumen</h3>
+            <p>Una Interfaz de Programación de Aplicaciones (API, por sus siglas en inglés) define un conjunto de directivas que pueden ser usadas para tener una pieza de software funcionando con algunas otras.</p>
+            <h3>Más a fondo</h3>
+            <p>Una Interfaz de Programación de Aplicaciones es un término común en Ciencias de la Computación. Es un término genérico que es usado para cubrir todos los requerimientos técnicos para tener varios componentes de software capaces de funcionar con los demás. En un contexto web, su uso es un poco más restrictivo, ya que es usado casi sólo con JavaScript. En ese contexto, una API es usualmente un conjunto de métodos, propiedades y eventos para con el fin lograr ciertas tareas. Por ejemplo, el API 2D de Canvas provee los métodos necesarios para dibujar gráficos 2D dentro de un elemento Canvas de HTML.
+Pero en algunos puntos, un conjunto de propiedades de CSS o elementos de HTML también son API. Algunos conceptos de arquitectura técnica, como REST, incluso afirman que un conjunto de varias URL formadas también son una API para usar en un sitio dado.</p>
+        </section>
+        <aside class="col-3 col-s-12">
+            <h3>Características</h3>
+            <p>Una API representa la capacidad de comunicación entre componentes de software. Se trata del conjunto de llamadas a ciertas bibliotecas que ofrecen acceso a ciertos servicios desde los procesos y representa un método para conseguir abstracción en la programación, generalmente (aunque no necesariamente) entre los niveles o capas inferiores y los superiores del software.</p>
+            <p>Uno de los principales propósitos de una API consiste en proporcionar un conjunto de funciones de uso general, por ejemplo, para dibujar ventanas o iconos en la pantalla. De esta forma, los programadores se benefician de las ventajas de las API haciendo uso de su funcionalidad, evitándose el trabajo de programar todo desde el principio.</p>
+            <p>Las API asimismo son abstractas: el software que proporciona una cierta API generalmente es llamado la implementación de esa API.</p>
+        </aside>
+    </div>
+    <footer>Ejemplo de Diseño Responve - Uneweb - &copy; 2026</footer>
+</body>
+</html>

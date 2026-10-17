@@ -1,0 +1,55 @@
+<!-- https://www.w3schools.com/html/default.asp -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Requisito para despliegue responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ccs/ejemplo03_responsive.css">
+  </head>
+<body>
+    <header>
+        <h1>APis en HTML5</h1>
+    </header>
+    <div>
+         <!-- 
+        En pc el menú ocupa un 25% de la pantalla
+        En tablet el menú ocupa un 25% de la pantalla
+        -->
+        <nav class="col-3 col-s-3">
+
+            <ul>
+                <a href="https://developer.mozilla.org/es/docs/Web/API" target="_blank"><li>Documentacion</li></a>
+                <a href="#"><li>Geolocalización</li></a>
+                <a href="./ejemplo05_canvas.html"><li>Canvas</li></a>
+                <a href="#"><li>Drag and Drop</li></a>
+                <a href="#"><li>Web Worker</li></a>
+            </ul>
+        </nav>
+         <!-- 
+        En PC la sección ocupa el 50% de la pantalla
+        En Tablet la sección ocupa el 75% de la pantalla
+        -->
+        <section class="col-6 col-s-9">        
+           <h2>API</h2>
+            <h3>Resumen</h3>
+            <p>Una Interfaz de Programación de Aplicaciones (API, por sus siglas en inglés) define un conjunto de directivas que pueden ser usadas para tener una pieza de software funcionando con algunas otras.</p>
+            <h3>Más a fondo</h3>
+            <p>Una Interfaz de Programación de Aplicaciones es un término común en Ciencias de la Computación. Es un término genérico que es usado para cubrir todos los requerimientos técnicos para tener varios componentes de software capaces de funcionar con los demás. En un contexto web, su uso es un poco más restrictivo, ya que es usado casi sólo con JavaScript. En ese contexto, una API es usualmente un conjunto de métodos, propiedades y eventos para con el fin lograr ciertas tareas. Por ejemplo, el API 2D de Canvas provee los métodos necesarios para dibujar gráficos 2D dentro de un elemento Canvas de HTML.
+
+                Pero en algunos puntos, un conjunto de propiedades de CSS o elementos de HTML también son API. Algunos conceptos de arquitectura técnica, como REST, incluso afirman que un conjunto de varias URL formadas también son una API para usar en un sitio dado.</p> 
+        </section>
+         <aside class="col-3 col-s-12">        
+            <h3>Características</h3>
+            <p>Una API representa la capacidad de comunicación entre componentes de software. Se trata del conjunto de llamadas a ciertas bibliotecas que ofrecen acceso a ciertos servicios desde los procesos y representa un método para conseguir abstracción en la programación, generalmente (aunque no necesariamente) entre los niveles o capas inferiores y los superiores del software. </p>
+            <p>Uno de los principales propósitos de una API consiste en proporcionar un conjunto de funciones de uso general, por ejemplo, para dibujar ventanas o iconos en la pantalla. De esta forma, los programadores se benefician de las ventajas de las API haciendo uso de su funcionalidad, evitándose el trabajo de programar todo desde el principio.</p>
+            <p>Las API asimismo son abstractas: el software que proporciona una cierta API generalmente es llamado la implementación de esa API.</p>
+        </aside>
+    </div>
+    <footer>
+        Ejemplo de Diseño responsive - Uneweb - &copy; 2026
+    </footer>
+    
+</body>
+</html>
