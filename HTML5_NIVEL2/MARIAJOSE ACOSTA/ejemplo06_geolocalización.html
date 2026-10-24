@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalización</title>
+</head>
+<body>
+    <h1>Ejemplo06 Geolocalización</h1>
+    <a href="https://developer.mozilla.org/es/docs/Web/API/Geolocation_API" target="_blank">Documentación</a>
+    <hr>
+    <a href="./ejemplo03_responsive.html">Regresar al menú</a>
+    <hr>
+    <button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+    <button onclick="verMapa()">Ver Mapa</button>
+    <hr>
+    <div id="resultado"></div>
+    <script>
+        // Declaración de funciones
+        function obtenerCoordenadas(p){
+            console.log(p);
+             resultado.style.color = green;
+             resultado.innerHTML = "Latitud:" + p.coords.latitude + ", Longitud:" + p.coords.longitude;
+        }
+        function obtenerError(e){
+            console.log(e);
+            resultado.style.color = 'red';
+            resultado.innerHTML = e.message;
+        }
+        function obtenerUbicacion() {
+            resultado = document.getElementById("resultado");
+            if (navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(obtenerCoordenadas, obtenerError);
+            }else{
+                resultado.innerHTML = "Navegador Web no soporta Geolocalización";
+            }
+            
+        }
+        function verMapa() {
+            
+        }
+        // Cuerpo principal del programa
+        // Declaración de variables
+        var resultado;
+    </script>
+</body>
+</html>

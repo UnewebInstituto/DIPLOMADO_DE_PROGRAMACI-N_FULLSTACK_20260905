@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <style>
+        #cuadro1, #cuadro2{
+            width: 200px;
+            height: 200px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            display: block;
+            float: left;
+            margin-right: 20px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Ejemplo07 Drag and Drop</h1>
+    <a href="https://developer.mozilla.org/es/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop">Documentación"></a>
+    <hr>
+    <a href="https://www.w3schools.com/html/html5_draganddrop.asp">Ejemplo w3schools</a>
+    <hr>
+    <a href="./ejemplo03_responsive.html">Regresar al menú</a>
+    <hr>
+    <div id="cuadro1" ondrop="dropHandler(event)"
+        ondragover="dragoverHandler(event)">
+        <img src="../img/postgresql.png" 
+        alt="Imagen de PostgreSQL"
+        id="imagen"
+        draggable="true"
+        ondragstart="dragstartHandler(event)">
+    </div>
+    <div id="cuadro2"
+        ondrop="dropHandler(event)" 
+        ondragover="dragoverHandler(event)"></div>
+    <script>
+        function dragstartHandler(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+         function dragoverHandler(ev){
+             ev.preventDefault();
+        }
+        function dropHandler(ev){
+            ev.preventDefault();
+            const data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</body>
+</html>
+
+  
