@@ -1,0 +1,23 @@
+Fuente de instalación de pseint
+https://pseint.sourceforge.net/
+
+
+Asignación para la próxima clase:
+
+1) Elaborar en pseInt un algoritmo de ejemplo para cada ciclo
+repetitivo (mientras, repetir y para). Donde el usuario ingrese
+la cantidad de valores a imprimir en la serie numérica. 
+Dicha serie debe iniciar en cero.
+
+Por ejemplo ciclo mientras:
+Ingrese cantidad de valores en la serie: 10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
